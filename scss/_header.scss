@@ -24,9 +24,25 @@ header {
             li {
                 border: 0.15rem solid #FFF;
                 padding: 0.4rem 0.8rem;
+                font-weight: 600;
+                font-size: 1.4rem;
+                line-height: 1.5rem;
             }
-            font-size: 1.4rem;
-            line-height: 1.5rem;
+            
+        }
+    }
+    @media(max-width: 56rem) {
+        height: 7rem;
+        .sony {
+            display: none;
+        }
+        .logo {
+            max-width: 14rem;
+        }
+        .platform {
+            span {
+                display: none;
+            }
         }
     }
 }
